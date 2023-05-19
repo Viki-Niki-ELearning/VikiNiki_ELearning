@@ -1,0 +1,60 @@
+{
+  "leckek": [
+    {
+      "id": "1",
+      "video": "valami.mp4",
+      "cim": "neve",
+      "leiras": "lorem...",
+      "memoria": [
+        {
+          "id": 1,
+          "nev": "foto1.jpg",
+          "szo": "sfsdf.jpg"
+        },
+        {
+          "id": 1,
+          "nev": "foto1.jpg",
+          "szo": "sfsdf"
+        },
+        {
+          "id": 1,
+
+          "nev": "foto1.jpg",
+          "szo": "sfsdf"
+        }
+      ],
+      "szoparositos": [
+        {
+          "id": 1,
+    
+          "kerdes1": "kerdes1",
+    
+          "valasz1": "szo",
+    
+          "valasz2": "szo",
+    
+          "valasz3": "szo",
+    
+          "valasz4": "szo"
+    
+          
+        },
+    
+        {
+          "id": 2,
+    
+          "kerdes1": "kerdes1",
+    
+          "valasz1": "szo",
+    
+          "valasz2": "szo",
+    
+          "valasz3": "szo",
+    
+          "valasz4": "szo"
+          
+        }
+      ]
+    }
+  ]
+}
