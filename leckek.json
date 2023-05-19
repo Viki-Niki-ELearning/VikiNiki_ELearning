@@ -2,8 +2,8 @@
   "leckek": [
     {
       "id": "1",
-      "video": "valami.mp4",
-      "cim": "neve",
+      "video": "https://youtu.be/g8YH2pQ3YLc",
+      "cim": "Travel | Everyday English",
       "leiras": "lorem...",
       "memoria": [
         {
@@ -23,7 +23,7 @@
           "szo": "sfsdf"
         }
       ],
-      "szoparositos": [
+      "kerdesValasz": [
         {
           "id": 1,
     
@@ -55,6 +55,118 @@
           
         }
       ]
-    }
+    },
+    {
+        "id": "2",
+        "video": "https://youtu.be/AK42GhbTZ9w",
+        "cim": "Pets & Animals | Beginner English",
+        "leiras": "lorem...",
+        "memoria": [
+          {
+            "id": 1,
+            "nev": "foto1.jpg",
+            "szo": "sfsdf.jpg"
+          },
+          {
+            "id": 1,
+            "nev": "foto1.jpg",
+            "szo": "sfsdf"
+          },
+          {
+            "id": 1,
+  
+            "nev": "foto1.jpg",
+            "szo": "sfsdf"
+          }
+        ],
+        "kerdesValasz": [
+          {
+            "id": 1,
+      
+            "kerdes1": "kerdes1",
+      
+            "valasz1": "szo",
+      
+            "valasz2": "szo",
+      
+            "valasz3": "szo",
+      
+            "valasz4": "szo"
+      
+            
+          },
+      
+          {
+            "id": 2,
+      
+            "kerdes1": "kerdes1",
+      
+            "valasz1": "szo",
+      
+            "valasz2": "szo",
+      
+            "valasz3": "szo",
+      
+            "valasz4": "szo"
+            
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "video": "https://youtu.be/XFL3d5gtOWI",
+        "cim": "Work & School | Beginner English",
+        "leiras": "lorem...",
+        "memoria": [
+          {
+            "id": 1,
+            "nev": "foto1.jpg",
+            "szo": "sfsdf.jpg"
+          },
+          {
+            "id": 1,
+            "nev": "foto1.jpg",
+            "szo": "sfsdf"
+          },
+          {
+            "id": 1,
+  
+            "nev": "foto1.jpg",
+            "szo": "sfsdf"
+          }
+        ],
+        "kerdesValasz": [
+          {
+            "id": 1,
+      
+            "kerdes1": "kerdes1",
+      
+            "valasz1": "szo",
+      
+            "valasz2": "szo",
+      
+            "valasz3": "szo",
+      
+            "valasz4": "szo"
+      
+            
+          },
+      
+          {
+            "id": 2,
+      
+            "kerdes1": "kerdes1",
+      
+            "valasz1": "szo",
+      
+            "valasz2": "szo",
+      
+            "valasz3": "szo",
+      
+            "valasz4": "szo"
+            
+          }
+        ]
+      }
   ]
 }
