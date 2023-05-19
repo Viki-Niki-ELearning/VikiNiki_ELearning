@@ -1,14 +1,18 @@
-list = [
-  "dog.png", "pig.png", "avatar_beuke.png"
-]
 
 $(function () {
-  const ELEM = $(`img`);
+  list = [
+    "kepek/dog.png", "kepek/pig.png", "kepek/avatar_beuke.png"
+  ]
+  
+  const ELEM = $(`.avatar`);
   ELEM.on("click", kattintas);
 
 
   function kattintas() {
-    let aktELEM = $(event.target).attr("img");
-    $(event.target).attr("src", "pig.png");
+    let id = event.target.id;
+    console.log(id);
+    let aktELEM = $(".megjelen");
+    aktELEM.attr("src", list[id]);
+    
  }
 });
