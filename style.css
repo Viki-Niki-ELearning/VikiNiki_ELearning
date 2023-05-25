@@ -22,12 +22,17 @@ p{
 }
 
 .gomb{
-    background-color: #b894fc; /* Green */
+ background-color: #b894fc; /* Green */
   border: none;
   color: rgb(7, 7, 7);
   padding: 15px 32px;
+  margin: 4%;
   text-decoration: none;
- 
+  float: right;
+  position: fixed;
+  position: fixed;
+  bottom: 0;
+  right: 0; 
   font-size: 16px;
 }
 main{
