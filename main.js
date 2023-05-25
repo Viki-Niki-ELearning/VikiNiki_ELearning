@@ -1,6 +1,7 @@
-import Tanulo_ter from "./tanulo_ter.js"
-import Lecke from "./lecke.js"
+import TanuloTer from "./tanulo_ter.js"
+
 
 $(function () {
-    new Lecke();
+    console.log("sdsad")
+    new TanuloTer();
 });
