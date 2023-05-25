@@ -1,28 +1,33 @@
-.hatter{
-    background: rgb(196,169,246);
-    background: linear-gradient(90deg, rgba(196,169,246,1) 0%, rgba(210,167,247,1) 4%, rgba(203,134,246,1) 50%, rgba(119,228,231,1) 100%);
+.hatter {
+  background: rgb(196, 169, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 169, 246, 1) 0%,
+    rgba(210, 167, 247, 1) 4%,
+    rgba(203, 134, 246, 1) 50%,
+    rgba(119, 228, 231, 1) 100%
+  );
 }
-body{
-   background-color: rgb(247, 223, 253);
+body {
+  background-color: rgb(247, 223, 253);
 }
-h1{
-    text-align: center;
-    font-weight: bold;
+h1 {
+  text-align: center;
+  font-weight: bold;
 }
-p{
-    margin : 5%;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p {
+  margin: 5%;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.kozep{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
+.kozep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.gomb{
- background-color: #b894fc; /* Green */
+.gomb {
+  background-color: #b894fc; /* Green */
   border: none;
   color: rgb(7, 7, 7);
   padding: 15px 32px;
@@ -32,10 +37,10 @@ p{
   position: fixed;
   position: fixed;
   bottom: 0;
-  right: 0; 
+  right: 0;
   font-size: 16px;
 }
-main{
-    width: 80%;
-    margin: auto;
+main {
+  width: 80%;
+  margin: auto;
 }
