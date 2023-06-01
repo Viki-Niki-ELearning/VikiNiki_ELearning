@@ -1,6 +1,6 @@
 class Aszinkron {
   constructor() {
-    console.log("Aszinkron");
+    
   }
 
   adatBeolvas(vegpont, callbackFv) {

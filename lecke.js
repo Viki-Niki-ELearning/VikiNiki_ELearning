@@ -16,39 +16,12 @@ class Lecke {
         this.#id
       }" type="button" class="btn btn-primary kattintott fekete" data-bs-toggle="modal" data-bs-target="#myModal">Mutat</button>
       </div>`;
-    SZULOELEM.append(txt);
-    txt += "</div>";
-    txt += "</div>";
-    txt += modaltartalom();
-  }
 
-  modaltartalom() {
-    let txt = "";
-    txt += `<div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="modal-title"></h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-  
-        <!-- Modal body -->
-        <div class="modal-body">
-          
-        </div>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>
-  
-      </div>
-    </div>
-  </div>
-  `;
-    return txt;
+    txt += "</div>";
+    txt += "</div>";
+
+    SZULOELEM.append(txt);
   }
 }
+
 export default Lecke;

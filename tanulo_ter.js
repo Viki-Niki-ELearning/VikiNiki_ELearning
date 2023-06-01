@@ -4,22 +4,20 @@ import Aszinkron from "./Asszinkron.js";
 class TanuloTer {
   #vegpont;
   constructor() {
-    console.log("termékek");
-    /**itt történik meg az adatok beolvasása */
     const aszinkron = new Aszinkron();
     this.#vegpont = "leckek.json";
-    aszinkron.adatBeolvas(this.#vegpont, this.#termekMegjelenito);
+    aszinkron.adatBeolvas(this.#vegpont, this.#termekMegjelenito.bind(this));
   }
 
   #termekMegjelenito(lista) {
     console.log(lista);
-    let sajtalista = lista;
-    //a lista -t a JSON fájlból kapjuk
-    //megjeleníti a Termek-ből példányosított objketumokat
+    
     const ARTICLE = $("article");
-    for (let i = 0; i < sajtalista.length; i++) {
-      const le = new Termek(ARTICLE, sajtalista[i], i);
+    
+    for (let i = 0; i < lista.length; i++) {
+      const le = new Lecke(lista[i], i, ARTICLE);  
     }
   }
 }
+
 export default TanuloTer;
