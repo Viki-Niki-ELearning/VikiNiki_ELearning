@@ -34,7 +34,7 @@ class Lecke {
       MODALBODY.html(`
       <iframe  src="${this.#adat.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
       <h2>Memorie game: </h2><br>
-      <h2>Word hunter: <br></h2>`);
+      <h2>Quiz: <br></h2>`);
       
       
       
