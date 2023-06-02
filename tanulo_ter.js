@@ -9,13 +9,12 @@ class TanuloTer {
     aszinkron.adatBeolvas(this.#vegpont, this.#termekMegjelenito.bind(this));
   }
 
-  #termekMegjelenito(lista) {
-    console.log(lista);
-    
+  #termekMegjelenito(adat) {
+    const LISTA = adat.leckek;
     const ARTICLE = $("article");
-    
-    for (let i = 0; i < lista.length; i++) {
-      const le = new Lecke(lista[i], i, ARTICLE);  
+
+    for (let i = 0; i < LISTA.length; i++) {
+      let le = new Lecke(LISTA[i], i, ARTICLE);
     }
   }
 }
