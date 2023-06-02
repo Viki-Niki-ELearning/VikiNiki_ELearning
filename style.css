@@ -46,8 +46,11 @@ main {
 }
 article{
   padding-top: 5%;
-  width: 70%;
-  margin: auto;
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.rendez{
+  margin: 10px;
+}
+
