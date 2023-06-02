@@ -6,10 +6,11 @@ class Lecke {
     
    
     this.#adat = adat;
+    console.log(this.#adat)
     this.#id = id;
-    let txt = "<div>";
+    let txt = "";
     
-    txt += `<div class="card rendez" class="card col-lg-3 col-md-4 col-sm-6 p-0" style="width:300px">
+    txt += `<div class=" rendez card col-lg-3 col-md-4 col-sm-6 p-0" style="width:300px">
       <div class="card-img-body"> <h4 class="card-title">${this.#adat.cim}<br></h4>
       </div>
       <iframe  src="${this.#adat.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
