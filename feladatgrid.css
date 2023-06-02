@@ -14,5 +14,7 @@ main {
   article {
     grid-area: a;
   }
-  
+  header{
+    text-align: center;
+  }
  
