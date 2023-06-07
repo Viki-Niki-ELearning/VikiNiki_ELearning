@@ -6,7 +6,6 @@ $(function () {
 
   function kattintas() {
     let id = event.target.id;
-    console.log(id);
     let aktELEM = $(".megjelen");
     aktELEM.attr("src", list[id]);
   }
