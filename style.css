@@ -11,6 +11,7 @@
 body {
   
   background-color: rgb(247, 223, 253);
+  
 }
 h1 {
 text-align: center;
@@ -19,7 +20,7 @@ text-align: center;
 p {
   margin: 5%;
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma,  Verdana, sans-serif;
 }
 .kozep {
   display: block;
@@ -43,8 +44,7 @@ p {
 }
 
 article{
-  margin: 0 auto;
-  text-align: center;
+ 
   padding-top: 5%;
   
   
